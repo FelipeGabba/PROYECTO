@@ -1,0 +1,9 @@
+Tengo un problema con el zoom de la pagina de inicio la cual al estar al 100% queda desfasada la imagen.. Me fije y en el !DOCTYPE html esta igual que la primera clase...
+
+La resolucion para poder ver la pagina correctamente es de 67%.
+
+En cuanto a la version mobile tuve un problema con FIGMA la cual no pude mostrar los wiferfarm en modo pdf y cuando voy a descarlos me da error. Asi que solo adjunte un solo wirefram!
+
+Muchas gracias!
+
+Saludos, Felipe.-
