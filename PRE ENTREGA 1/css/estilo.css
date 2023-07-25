@@ -20,10 +20,10 @@
 .menu {
     display: flex;
     list-style: none;
-    justify-content: center;
+    justify-content: space-between;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 200%;
-    gap: 2rem;
+    gap: 1rem;
     letter-spacing: 2px;  
     padding-left: 3rem; 
     flex-direction: row;
@@ -41,6 +41,7 @@
     display: flex;
     padding-inline: 3rem;
     font-family: 'Exo 2', sans-serif;
+    color: black;
 }
 
 .hero_text img{
@@ -74,8 +75,8 @@
 /*** SOMOS ***/
 
 .somos {
-    padding: 6rem;
-   
+    padding: 3rem;
+    
 }
 
 .somos {
@@ -84,16 +85,18 @@
 }
 
 .somos_titulo {
+    color: black;
     display: flex;
-    justify-content: center;
-    font-size: 4rem;
+    padding-left: 30%;
+    font-size: 60px;
+    text-decoration: none;
 }
 
 .somos_parrafo {
-    padding-top: 5rem;
-    font-size: 48px;
+    padding-top: 1rem;
+    font-size: 45px;
     font-family: 'Exo 2', sans-serif;
-    
+    color: black;
 }
 
 /** PRODUCTO**/ 
@@ -101,26 +104,31 @@
 .producto {
     background: #423F01;
     padding: 4rem;
+   
 }
 
 .producto_titulo {
     font-size: 6rem;
     display: flex;
     justify-content: center;
-   font-family: 'Pacífico', cursiva;
-
+    font-family: 'Pacífico';
+    color: black;
+    text-decoration: none;
 }
 
 .producto_1 {
     justify-content: center;
     padding: 8rem;
     font-size: 5rem;
+
 }
 
 .producto_1 h5{
     font-size: 3rem;
     padding-left: 5rem;
-    flex-direction: column;
+    display: flex;
+    font-family: 'Pacífico';
+    color: black;
 }
 
 .producto_1 img{
@@ -137,6 +145,9 @@
     font-size: 3rem;
     padding-left: 5rem;
     flex-direction: column;
+    font-family: 'Pacífico';
+    color: black;
+    text-decoration: none;
 }
 .producto_2 img {
    padding-left: 14rem;
@@ -152,6 +163,9 @@
     font-size: 3rem;
     padding-left: 5rem;
     flex-direction: column;
+    font-family: 'Pacífico';
+    color: black;
+    text-decoration: none;
 }
 .producto_3 img{
     padding-left: 15rem;
@@ -167,6 +181,9 @@
     font-size: 3rem;
     padding-left: 5rem;
     flex-direction: column;
+    font-family: 'Pacífico';
+    color: black;
+    text-decoration: none;
 }
 
 .producto_4 img{
@@ -179,20 +196,21 @@
 
 .contactanos {   
     background: #423F01;
-    padding: 4rem;
+    justify-content: center;
 
 }
 
 .contactanos_tit {
-    font-size: 7rem;
-    padding-bottom: 10rem;
-    justify-content: center;
-    padding-left: 15rem;
-
+    color: black;
+    display: flex;
+    padding-left: 33%;
+    font-size: 60px;
+    text-decoration: none;
 }
 
 .contactanos_redes {
-    padding-left: 10rem;
+    padding-top: 7rem;
+    padding-left: 15rem;
     height: 520px;
 }
 
@@ -203,15 +221,88 @@
     width: 100%;
 }
 
+/** CONTACTANOS FORM **/
+
+.formulario{
+    background-color: #423F01;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    padding-left: 15rem;
+    padding-top: 50%;
+    padding-bottom: 100%;
+}
+
+.submit {
+  background-color: black;
+  color: #ececec;
+  border: 0;
+  border-radius: 0;
+  padding-inline: 1rem;
+
+}
+
+
 /** PAGINA DE PRODUCTOS **/
 
-.grilla_productos{
+
+.productos{
     padding: 2rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8rem; 
 }
 
-.g_prod_1{
-    height: 1px;
+.productos2{
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8rem; 
 }
+
+.productos3 {
+    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8rem;  
+}
+
+/** PAGINA DE COMBOS **/ 
+
+.grilla {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: black;
+    gap: 1rem;
+    column-gap: 2rem;
+    row-gap: 1rem;
+}
+
+/** PAGINA DE QUIENES SOMOS **/
+
+.nombre_1{
+    color:black;
+    font-family: "Pacifico";
+    font-size: 3rem;
+}
+
+.nombre_2{
+    color: black;
+    font-family: "Pacifico";
+    font-size: 2rem;
+}
+
+.ubicacion {
+    color: black;
+    display: flexbox;
+    padding-left: 25%;
+}
+
+
+
+/** PAGINA DE CONTACTANOS **/
+
