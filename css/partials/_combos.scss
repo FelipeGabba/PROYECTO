@@ -1,0 +1,16 @@
+/** PAGINA DE COMBOS **/ 
+
+.grilla {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    color: black;
+    gap: 1rem;
+    column-gap: 2rem;
+    row-gap: 1rem;
+    align-items: center;
+}

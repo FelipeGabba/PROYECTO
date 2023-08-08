@@ -1,0 +1,270 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2? family= Exo+2:wght@300 & family= Pacifico & family= Roboto+Condensed:wght@300 & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  background: #423F01;
+  text-decoration-style: none;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 200%;
+  gap: 1rem;
+  letter-spacing: 2px;
+  padding-left: 3rem;
+  padding-right: 1rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.hero_text {
+  display: flex;
+  padding-inline: 3rem;
+  font-family: "Exo 2", sans-serif;
+  color: black;
+}
+.hero_text .hero_text img {
+  height: 1rem;
+  padding-left: 15rem;
+  padding-top: 2rem;
+}
+.hero_text .hero_text h4 {
+  font-size: 3rem;
+  padding-top: 4rem;
+  flex-direction: column;
+}
+.hero_text .hero_text h2 {
+  font-size: 3rem;
+  padding-top: 2rem;
+  flex-direction: column;
+}
+.hero_text .hero_img {
+  display: flex;
+  top: 60%;
+  left: 60%;
+}
+
+.hero_img img {
+  height: 700px;
+}
+
+/*** SOMOS ***/
+.somos {
+  padding: 3rem;
+}
+
+.somos {
+  background-image: url(../fotos/Plantilla\ 3.jpg);
+  height: 1200px;
+}
+
+.somos_titulo {
+  color: black;
+  display: flex;
+  padding-left: 30%;
+  font-size: 60px;
+  text-decoration: none;
+}
+
+.somos_parrafo {
+  padding-top: 1rem;
+  font-size: 45px;
+  font-family: "Exo 2", sans-serif;
+  color: black;
+}
+
+/** PRODUCTO**/
+.producto {
+  background: #423F01;
+  padding: 4rem;
+}
+
+.producto_titulo {
+  font-size: 6rem;
+  display: flex;
+  justify-content: center;
+  font-family: "Pacífico";
+  color: black;
+  text-decoration: none;
+}
+
+.producto_1 {
+  justify-content: center;
+  padding: 8rem;
+  font-size: 5rem;
+}
+.producto_1 h5 {
+  font-size: 3rem;
+  padding-left: 5rem;
+  display: flex;
+  font-family: "Pacífico";
+  color: black;
+}
+.producto_1 img {
+  align-items: center;
+}
+
+.producto_2 {
+  padding: 8rem;
+  font-size: 5rem;
+}
+.producto_2 h4 {
+  font-size: 3rem;
+  padding-left: 5rem;
+  flex-direction: column;
+  font-family: "Pacífico";
+  color: black;
+  text-decoration: none;
+}
+.producto_2 img {
+  align-items: center;
+}
+
+.producto_3 {
+  padding: 8rem;
+  font-size: 5rem;
+}
+.producto_3 h4 {
+  font-size: 3rem;
+  padding-left: 5rem;
+  flex-direction: column;
+  font-family: "Pacífico";
+  color: black;
+  text-decoration: none;
+}
+.producto_3 img {
+  align-items: center;
+}
+
+.producto_4 {
+  padding: 8rem;
+  font-size: 5rem;
+}
+.producto_4 h5 {
+  font-size: 3rem;
+  padding-left: 5rem;
+  flex-direction: column;
+  font-family: "Pacífico";
+  color: black;
+  text-decoration: none;
+}
+.producto_4 img {
+  align-items: center;
+}
+
+/** CONTACTANOS **/
+.contactanos {
+  background: #423F01;
+  justify-content: center;
+}
+.contactanos .contactanos_tit {
+  color: black;
+  display: flex;
+  padding-left: 33%;
+  font-size: 60px;
+  text-decoration: none;
+  align-items: center;
+}
+.contactanos .contactanos_redes {
+  padding-top: 7rem;
+  padding-left: 15rem;
+  align-items: center;
+}
+
+/** BANNER **/
+.banner {
+  position: absolute;
+  width: 100%;
+}
+
+/** PAGINA DE PRODUCTOS **/
+.productos {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8rem;
+  align-items: center;
+}
+
+.productos2 {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8rem;
+  align-items: center;
+}
+
+.productos3 {
+  padding: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8rem;
+  align-items: center;
+}
+
+/** PAGINA DE COMBOS **/
+.grilla {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  color: black;
+  gap: 1rem;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+  row-gap: 1rem;
+  align-items: center;
+}
+
+/** PAGINA DE QUIENES SOMOS **/
+.nombre_1 {
+  color: black;
+  font-family: "Pacifico";
+  font-size: 3rem;
+}
+
+.nombre_2 {
+  color: black;
+  font-family: "Pacifico";
+  font-size: 2rem;
+}
+
+.ubicacion {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 5rem;
+  color: black;
+}
+
+/** CONTACTANOS FORM **/
+.formulario {
+  background-color: #423F01;
+  padding: 13rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  padding-left: 15rem;
+}
+.formulario .submit {
+  background-color: black;
+  color: #ececec;
+  border: 0;
+  border-radius: 0;
+  padding-inline: 1rem;
+}/*# sourceMappingURL=style.css.map */
