@@ -18,3 +18,39 @@
 
 }
 }
+
+.botones{
+  padding: 4rem;
+  
+  .boton{
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+  justify-content: space-between;
+  font-family: sans-serif;  
+  border-radius: 1rem;
+  gap: 1rem;
+  }
+
+  &.hover{
+    text-decoration: underline;
+  }
+
+}
+
+$coloresRedes: (
+  whataspp: green,
+  instagram: rgba(61, 30, 0, 0.836),
+  facebook: blue,
+  twitter: rgb(0, 114, 207),
+  gmail: red,
+);
+
+@each $redSocial, $colorDeRed in $coloresRedes {
+
+  .boton-#{$redSocial} {
+    background-color: $colorDeRed;
+  }
+
+}

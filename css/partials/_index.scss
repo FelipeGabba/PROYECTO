@@ -108,10 +108,14 @@
     display: flex;
     font-family: 'Pacífico';
     color: black;
-}
+    }
     & img{
     align-items: center;
-}
+    transition: 0.5s;
+    }
+    & img:hover{
+        transform: translate(10px, -20px);
+    }
 }
 
 .producto_2{
@@ -125,10 +129,14 @@
     font-family: 'Pacífico';
     color: black;
     text-decoration: none;
-}
+    }
     & img {
-   align-items: center;
-}
+    align-items: center;
+    transition: 0.5s;
+    }
+    & img:hover{
+    transform: translate(10px, -20px);
+    }
 }
 
 .producto_3{
@@ -145,7 +153,11 @@
 }
     & img{
     align-items: center;
-}
+    transition: 0.5s;
+    }   
+    & img:hover{
+    transform: translate(10px, -20px);
+    }   
 }
 
 .producto_4{
@@ -163,7 +175,11 @@
 
     & img{
     align-items: center;
-}
+    transition: 0.5s;
+    }
+    & img:hover{
+    transform: translate(10px, -20px);
+    }
 }
 
 /** CONTACTANOS **/
