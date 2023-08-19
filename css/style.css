@@ -319,16 +319,22 @@
   padding-left: 2rem;
   height: 90%;
 }
-.nombre_1 {
-  color: white;
-  font-family: "Pacifico";
-  font-size: 3rem;
-}
-
-.nombre_2 {
-  color: white;
+.personas {
+  color: rgb(243, 171, 76);
   font-family: "Pacifico";
   font-size: 2rem;
+  padding-top: 1rem;
+  padding-left: 3rem;
+  display: flex;
+}
+
+.nombres{
+  color: rgb(243, 171, 76);
+  font-family: "Pacifico";
+  display: flex;
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-left: 3rem;
 }
 
 .ubicacion {
