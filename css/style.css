@@ -6,6 +6,9 @@
   box-sizing: border-box;
 }
 
+.body{    
+  overflow-x: hidden;
+}
 .hero {
   background: #423F01;
   text-decoration-style: none;
@@ -31,13 +34,10 @@
 }
 **/
 .navbar-nav{
-  display: flex;
-  gap: 4rem;
+  gap: 3rem;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 160%;
   letter-spacing: 2px;
-  padding-left: 3rem;
-  padding-right: 1rem;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -49,6 +49,7 @@
   padding-inline: 3rem;
   font-family: "Exo 2", sans-serif;
   color: black;
+  background-color: #423F01;
 }
 
 .logo {
@@ -134,10 +135,12 @@
   justify-content: center;
   padding: 8rem;
   font-size: 5rem;
+  padding-left: 30%;
 }
 .producto_1 h5 {
-  font-size: 3rem;
-  padding-left: 5rem;
+  font-size: 2.5rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
   display: flex;
   font-family: "Pacífico";
   color: black;
@@ -151,12 +154,14 @@
 }
 
 .producto_2 {
+  justify-content: center;
   padding: 8rem;
   font-size: 5rem;
+  padding-left: 30%;
 }
 .producto_2 h4 {
-  font-size: 3rem;
-  padding-left: 5rem;
+  font-size: 2.5rem;
+  padding-top: 2rem;
   flex-direction: column;
   font-family: "Pacífico";
   color: black;
@@ -171,12 +176,14 @@
 }
 
 .producto_3 {
+  justify-content: center;
   padding: 8rem;
   font-size: 5rem;
+  padding-left: 30%;
 }
 .producto_3 h4 {
-  font-size: 3rem;
-  padding-left: 5rem;
+  font-size: 2.5rem;
+  padding-top: 2rem;
   flex-direction: column;
   font-family: "Pacífico";
   color: black;
@@ -191,12 +198,14 @@
 }
 
 .producto_4 {
+  justify-content: center;
   padding: 8rem;
   font-size: 5rem;
+  padding-left: 30%;
 }
 .producto_4 h5 {
-  font-size: 3rem;
-  padding-left: 5rem;
+  font-size: 2.5rem;
+  padding-top: 2rem;
   flex-direction: column;
   font-family: "Pacífico";
   color: black;
@@ -236,6 +245,10 @@
 }
 
 /** PAGINA DE PRODUCTOS **/
+.hero_productos{
+  background-color: #423F01;
+}
+
 .productos {
   padding: 2rem;
   display: flex;
@@ -265,6 +278,7 @@
 
 /** PAGINA DE COMBOS **/
 .grilla {
+  background-color: #423F01;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -275,7 +289,7 @@
   color: black;
   gap: 1rem;
   -moz-column-gap: 2rem;
-       column-gap: 2rem;
+  column-gap: 2rem;
   row-gap: 1rem;
   align-items: center;
 }
@@ -314,6 +328,10 @@
 
 /** PAGINA DE QUIENES SOMOS **/
 
+.carrousel{
+  background-color: #423F01;
+}
+
 .carousel-inner{
   padding-top: 2rem;
   padding-left: 2rem;
@@ -345,6 +363,11 @@
 }
 
 /** CONTACTANOS FORM **/
+
+.barra{
+  
+}
+
 .formulario {
   background-color: #423F01;
   padding: 13rem;
@@ -362,6 +385,7 @@
 }
 
 .botones {
+  background-color: #423F01;
   padding: 2rem;
   display: flex;
   flex-wrap: wrap;
