@@ -54,10 +54,10 @@
 
 .logo {
   display: flex;
+  padding-left: 35%;
 }
 .hero_text .hero_text img {
   height: 1rem;
-  padding-left: 15rem;
   padding-top: 2rem;
 }
 .hero_text .hero_text h4 {
@@ -66,7 +66,7 @@
   flex-direction: column;
 }
 .hero_text .hero_text h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   padding-top: 2rem;
   flex-direction: column;
 }
