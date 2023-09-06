@@ -364,9 +364,6 @@
 
 /** CONTACTANOS FORM **/
 
-.barra{
-  
-}
 
 .formulario {
   background-color: #423F01;
@@ -389,6 +386,7 @@
   padding: 2rem;
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 6rem;
 }
 .botones .boton {
   align-items: center;
